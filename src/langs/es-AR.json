@@ -1,0 +1,120 @@
+{
+    "Common": {
+        "or": "O",
+        "cancel": "Cancelar",
+        "continue": "Continuar",
+        "save": "Guardar",
+        "owner": "Propietario",
+        "admin": "Administrador",
+        "author": "Autor",
+        "editor": "Editor",
+        "actions": "Acciones"
+    },
+    "Layout": {
+        "toggle_theme_label": "Cambiar tema",
+        "posts": "Publicaciones",
+        "users": "Usuarios",
+        "settings": "Configuraciones",
+        "manage": "Gestionar"
+    },
+    "HomePage": {
+        "title": "👋 ¡Hola, {name}!",
+        "description": "Selecciona un blog para empezar a gestionarlo o crea uno nuevo.",
+        "btn_label": "Crear blog",
+        "tooltip_title": "Hacé clic para seleccionar"
+    },
+    "DashboardPage": {
+        "title": "👋 ¡Hola, {name}!",
+        "description": "¡Bienvenido(a) al panel de gestión de {blogName}!",
+        "total_users": "Total de usuarios",
+        "total_posts": "Total de publicaciones",
+        "your_total_posts": "Total de publicaciones hechas por vos"
+    },
+    "NewBlog": {
+        "title": "Crear un nuevo blog",
+        "ai_tooltip": "Generar un blog automáticamente."
+    },
+    "NewBlogUser": {
+        "title": "Agregar nuevo usuario al blog",
+        "success": "Usuario agregado al blog con éxito"
+    },
+    "NewBlogPost": {
+        "title": "Agregar nueva publicación al blog",
+        "success": "Publicación agregada al blog con éxito",
+        "ai_tooltip": "Generar un post automáticamente."
+    },
+    "EditBlogPost": {
+        "title": "Editar una publicación",
+        "success": "Publicación editada con éxito"
+    },
+    "NotFoundPage": {
+        "title": "Página no encontrada",
+        "subtitle": "La página que estás buscando no existe.",
+        "btn_label": "Volver a la página principal"
+    },
+    "SignInPage": {
+        "btn_label": "Iniciar sesión con {provider}",
+        "no_account": "¿Todavía no tenés una cuenta?",
+        "btn_no_account_label": "Registrarse"
+    },
+    "SignUpPage": {
+        "btn_label": "Crear cuenta con {provider}",
+        "already_have_account": "¿Ya tenés una cuenta?",
+        "btn_have_account_label": "Iniciar sesión"
+    },
+    "VerifyEmailPage": {
+        "title": "Verificá tu email",
+        "subtitle": "Vas a recibir un email con un link mágico ✨; hacé clic en él para acceder a tu cuenta rápidamente. (Si no lo encontrás, revisá la carpeta de spam.)",
+        "btn_label": "Volver a la página de inicio"
+    },
+    "AuthErrorPage": {
+        "title": "Error de autenticación",
+        "subtitle": "No se pudo autenticar tu cuenta. Por favor, intentá de nuevo más tarde.",
+        "btn_label": "Volver a la página de inicio"
+    },
+    "UsersPage": {
+        "title": "Gestionar Usuarios",
+        "description": "Gestioná los usuarios del blog, controlá permisos y agregá nuevos usuarios.",
+        "new_user_label": "Nuevo Usuario",
+        "remove_user_label": "¿Eliminar este usuario del blog?",
+        "remove_user_description": "Esta acción es irreversible (Las publicaciones de este usuario seguirán estando disponibles en el blog)."
+    },
+    "SettingsPage": {
+        "title": "Configuraciones",
+        "description": "Gestioná las configuraciones del blog y personalizá el contenido.",
+        "delete_blog_label": "Eliminar el blog",
+        "delete_blog_description": "Al eliminar el blog, ya no estará disponible para vos ni para otros usuarios, y las publicaciones no podrán ser accedidas."
+    },
+    "PostsPage": {
+        "title": "Gestionar Publicaciones",
+        "description": "Gestioná las publicaciones del blog, editá, eliminá y agregá nuevas publicaciones.",
+        "new_post_label": "Nueva Publicación",
+        "remove_post_label": "¿Eliminar esta publicación del blog?",
+        "remove_post_description": "Esta acción es irreversible."
+    },
+    "Form": {
+        "title_label": "Título",
+        "subtitle_label": "Subtítulo",
+        "slug_label": "Slug",
+        "bg_color_label": "Color de fondo",
+        "text_color_label": "Color del texto",
+        "name_label": "Tu Nombre",
+        "user_name_label": "Nombre del Usuario",
+        "email_label": "Tu Email",
+        "user_email_label": "Email del Usuario",
+        "role_label": "Permiso",
+        "body_label": "Contenido",
+        "author_label": "Autor",
+        "validate_messages": {
+            "required": "¡Por favor, completá este campo!"
+        }
+    },
+    "Errors": {
+        "auth/ACCOUNT_NOT_FOUND": "Cuenta no encontrada",
+        "auth/ACCOUNT_ALREADY_EXISTS": "Email ya asociado a una cuenta",
+        "blog/SLUG_ALREADY_EXISTS": "El slug ya está en uso por otro blog",
+        "blog/USER_EMAIL_NOT_FOUND": "Email del usuario no encontrado",
+        "blog/USER_ALREADY_IN_BLOG": "El email del usuario ya está asociado a un blog",
+        "post/SLUG_ALREADY_EXISTS": "El slug ya está en uso por otra publicación"
+    }
+}
